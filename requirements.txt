@@ -1,3 +1,4 @@
+# fix cbor2 for Pi Zero
 luma.oled
 timeloop
 requests

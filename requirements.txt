@@ -1,4 +1,4 @@
-# fix cbor2 for Pi Zero
+cbor2==5.9.0
 luma.oled
 timeloop
 requests
@@ -6,7 +6,6 @@ xmltodict
 defusedxml
 RPi.GPIO
 spidev
-cbor2==5.9.0
 urllib3>=2.6.3
 pillow>=10.3.0
 

@@ -12,7 +12,7 @@ WORKDIR /usr/src/app
 # Install the required python packages, and save the compiled result to an output folder
 # This requires gcc/etc which is why we do it in the build image and save the result for the run image
 COPY requirements.txt .
-RUN pip install --no-cache-dir -r requirements.txt
+RUN pip install --no-cache-dir --verbose -r requirements.txt
 
 FROM python:3.12-alpine3.22
 
